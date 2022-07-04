@@ -1,0 +1,144 @@
+.wrap {
+  width: 100%;
+  background-color: #fff;
+  font-size: 14px;
+  position: relative;
+}
+.wrapbox {
+  width: 1150px;
+  margin: auto;
+}
+header {
+  height: 124px;
+  background-color: #fff;
+}
+header h1 {
+}
+header h1 a {
+  background-image: url(../images/logo_bbak_c.png);
+  width: 208px;
+  height: 62px;
+  text-indent: -9999px;
+  float: left;
+  margin-top: 40px;
+}
+header div.info {
+  display: flex;
+  justify-content: right;
+  padding-top: 30px;
+}
+header div.info a {
+  width: 60px;
+  font-size: 13px;
+  margin-left: 22px;
+  position: relative;
+  color: #9a929e;
+}
+header div.info a:first-child::after,
+header div.info a:nth-child(2)::after {
+  content: '';
+  width: 1px;
+  height: 11px;
+  background-color: #9a929e;
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 70px;
+}
+header div.info a.i_f {
+  background-image: url(../images/ceo/topbar1.jpg);
+  width: 20px;
+  height: 20px;
+  text-indent: -9999px;
+}
+header div.info a.i_i {
+  background-image: url(../images/ceo/topbar2.jpg);
+  width: 20px;
+  height: 20px;
+  text-indent: -9999px;
+}
+header nav {
+  font-size: 16px;
+}
+header nav ul {
+  display: flex;
+  justify-content: right;
+  margin-top: 43px;
+}
+header nav ul li {
+  margin-left: 83px;
+}
+header nav ul li a {
+}
+
+footer {
+  width: 100%;
+  height: 260px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+}
+footer .wrapbox {
+  position: relative;
+}
+footer h2 a {
+  background-image: url(../images/logo_b.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 184px;
+  height: 46px;
+  margin: auto;
+  text-indent: -9999px;
+  margin-top: 42px;
+  margin-bottom: 35px;
+}
+footer a.family {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 11px;
+  padding: 5px 54px 5px 5px;
+  border: 1px solid #000;
+}
+footer div.footer_info {
+  width: 524px;
+  margin: 0 auto;
+  font-size: 14px;
+}
+footer div.footer_info > div {
+  display: flex;
+  justify-content: space-around;
+}
+footer div.footer_info p {
+  position: relative;
+  margin-top: 12px;
+}
+footer div.footer_info p::after {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 11px;
+  background-color: #000;
+  position: absolute;
+  top: 3px;
+  right: -20px;
+}
+footer div.footer_info .info3 p::after {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 11px;
+  background-color: #000;
+  position: absolute;
+  top: 3px;
+  right: -10px;
+}
+footer div.footer_info p:last-child::after {
+  display: none;
+}
+footer .copy {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}

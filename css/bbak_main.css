@@ -1,0 +1,115 @@
+.wrap {
+  overflow: hidden;
+}
+section {
+  font-size: 15px;
+}
+section h3 {
+  font-size: 37px;
+  font-weight: 900;
+}
+section.sec1 {
+}
+section.sec1 ul {
+  /* overflow: hidden; */
+}
+section.sec1 ul li {
+}
+section.sec1 ul li a img {
+}
+section .story {
+  background-image: url(../images/main_sec1.jpg);
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  width: 100%;
+  height: 233px;
+}
+section .story .tit,
+section .story .txt {
+  position: relative;
+  top: 30px;
+  left: 49px;
+}
+section .story .tit p {
+  font-size: 15px;
+  font-weight: bold;
+}
+section .story .txt h3 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #071f60;
+}
+section.sec2 {
+  background-image: url(../images/main_sec2.jpg);
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  height: 600px;
+  padding-top: 89px;
+}
+section.sec2 .tit {
+  color: #6b4d30;
+  padding-bottom: 70px;
+  position: relative;
+}
+section.sec2 .tit::after {
+  display: block;
+  content: '';
+  width: 33px;
+  height: 2px;
+  background-color: #6b4d30;
+  position: absolute;
+  top: 100px;
+  left: 0;
+}
+section.sec2 .txt {
+  font-weight: bold;
+}
+section.sections {
+  display: flex;
+  /* justify-content: space-between; */
+  /* overflow: hidden; */
+  height: 600px;
+  padding-top: 12px;
+}
+section.sections .sec3 {
+  background-image: url(../images/main_sec3.jpg);
+  background-repeat: no-repeat;
+  width: 1148px;
+  position: relative;
+  margin-right: 12px;
+}
+section.sections .sec4 {
+  background-image: url(../images/main_sec4.jpg);
+  background-repeat: no-repeat;
+  width: 762px;
+  position: relative;
+}
+section .sec3 .tit,
+section .sec3 .txt {
+  position: absolute;
+  top: 87px;
+  left: 180px;
+}
+section .sec3 .tit {
+  color: #071f60;
+}
+section .sec3 .txt {
+  padding-top: 156px;
+  font-weight: bold;
+}
+section .sec4 .tit,
+section .sec4 .txt {
+  position: absolute;
+  top: 87px;
+  left: 47px;
+}
+section .sec4 .tit {
+  color: #f1ae1d;
+}
+section .sec4 .txt {
+  padding-top: 156px;
+  font-weight: bold;
+}
+section.sec5 {
+  margin-left: 464px;
+}
