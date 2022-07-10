@@ -8,9 +8,13 @@
     <link rel="stylesheet" href="css/bbak_comm.css" />
     <link rel="stylesheet" href="css/bbak_main.css" />
     <link rel="stylesheet" href="css/reset.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script/comm.js"></script>
+    <script src="script/main.js"></script>
   </head>
   <body>
     <div class="wrap">
+      <div class="navbox"><img src="images/menu-bg.jpg" alt="bg" /></div>
       <div class="wrapbox">
         <header>
           <h1><a href="index.html">로고</a></h1>
@@ -21,13 +25,51 @@
             <a href="#" class="i_i">인스타그램</a>
           </div>
           <nav>
-            <ul>
-              <li><a href="introduce.html">빽다방</a></li>
-              <li><a href="menu.html">메뉴</a></li>
-              <li><a href="notice.html">소식</a></li>
-              <li><a href="#">커뮤니티</a></li>
-              <li><a href="store.html">매장안내</a></li>
-              <li><a href="#">창업안내</a></li>
+            <ul class="gnb">
+              <li>
+                <a href="#">빽다방</a>
+                <ul class="sub">
+                  <li><a href="about.html">CEO 인삿말</a></li>
+                  <li><a href="#">빽다방 소개</a></li>
+                  <li><a href="#">커피 이야기</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">메뉴</a>
+                <ul class="sub">
+                  <li><a href="menu.html">신메뉴</a></li>
+                  <li><a href="#">커피</a></li>
+                  <li><a href="#">음료</a></li>
+                  <li><a href="#">아이스크림/디저트</a></li>
+                  <li><a href="#">빽스치노</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">소식</a>
+                <ul class="sub">
+                  <li><a href="news.html">소식</a></li>
+                  <li><a href="#">이벤트</a></li>
+                  <li><a href="#">친절 우수매장</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">커뮤니티</a>
+                <ul class="sub">
+                  <li><a href="#">커피클래스</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">매장안내</a>
+                <ul class="sub">
+                  <li><a href="#">매장찾기</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">창업안내</a>
+                <ul class="sub">
+                  <li><a href="#">가맹정보 및 절차</a></li>
+                </ul>
+              </li>
               <li><a href="#">고객의 소리</a></li>
             </ul>
           </nav>
@@ -53,6 +95,7 @@
             <h3>PAIK'S COFFEE STORY</h3>
             <p>균형잡힌 바디감으로 긴 여운을 남기는 빽다방 커피를 만나보세요.</p>
           </div>
+          <button class="more">+</button>
         </div>
       </section>
       <section class="sec2">
@@ -65,6 +108,7 @@
             추출한 커피메뉴!
           </p>
         </div>
+        <button class="more">+</button>
       </section>
       <section class="sections">
         <div class="sec3">
@@ -77,6 +121,7 @@
               골라 먹는 즐거움!
             </p>
           </div>
+          <button class="more">+</button>
         </div>
         <div class="sec4">
           <div class="tit">
@@ -85,25 +130,37 @@
           <div class="txt">
             <p>달콤 시원한 빽다방<br />시그니처 메뉴!</p>
           </div>
+          <button class="more">+</button>
         </div>
       </section>
       <section class="sec5">
         <div class="store">
           <h4>STORE</h4>
           <p>원하시는 지역의 매장을 검색해 보세요!</p>
-          <label for="findstore" class="hide">매장찾기</label>
-          <input type="text" id="findstore" placeholder="Find a store in your area!" /><i class="search"></i>
+          <div class="inputbox">
+            <label for="findstore" class="hide">매장찾기</label>
+            <input type="text" id="findstore" placeholder="Find a store in your area!" /><button class="search">검색</button>
+          </div>
+        </div>
+        <div class="ad">
+          <h4>TASTY<br />ICE CREAM / <br />DESSERT</h4>
+          <p>달콤한 아이스크림부터<br />든든한 브레드 까지!</p>
+          <button class="more">+</button>
         </div>
         <div class="franchise">
           <h4>FRANCHISE</h4>
           <p>빽다방 창업안내를 도와드리겠습니다.</p>
+          <button>창업안내</button>
         </div>
-        <div class="ad">
-          <h3>
-            TASTY ICE CREAM /<br />
-            DESSERT
-          </h3>
-          <p>달콤한 아이스크림부터<br />든든한 브레드 까지!</p>
+      </section>
+      <section class="last-section">
+        <h4>PAIK'S COFFEE SNS</h4>
+        <p>#빽다방</p>
+        <p>#빽다방신메뉴</p>
+        <p>#빽다방이벤트</p>
+        <div class="sns">
+          <a href="#">페이스북</a>
+          <a href="#">인스타그램</a>
         </div>
       </section>
       <footer style="border-top: 3px solid #ffe600">

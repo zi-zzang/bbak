@@ -6,10 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>빽다방</title>
     <link rel="stylesheet" href="css/bbak_comm.css" />
+    <link rel="stylesheet" href="css/bbak_menu.css" />
     <link rel="stylesheet" href="css/reset.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script/comm.js"></script>
+    <script src="script/main.js"></script>
   </head>
   <body>
     <div class="wrap">
+      <div class="navbox"><img src="images/menu-bg.jpg" alt="bg" /></div>
       <div class="wrapbox">
         <header>
           <h1><a href="index.html">로고</a></h1>
@@ -20,25 +25,96 @@
             <a href="#" class="i_i">인스타그램</a>
           </div>
           <nav>
-            <ul>
-              <li><a href="introduce.html">빽다방</a></li>
-              <li><a href="menu.html">메뉴</a></li>
-              <li><a href="notice.html">소식</a></li>
-              <li><a href="#">커뮤니티</a></li>
-              <li><a href="store.html">매장안내</a></li>
-              <li><a href="#">창업안내</a></li>
-              <li><a href="#">고객의 소리</a></li>
+            <ul class="gnb">
+              <li>
+                <a href="#">빽다방</a>
+                <ul class="sub">
+                  <li><a href="about.html">CEO 인삿말</a></li>
+                  <li><a href="#">빽다방 소개</a></li>
+                  <li><a href="#">커피 이야기</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">메뉴</a>
+                <ul class="sub">
+                  <li><a href="menu.html">신메뉴</a></li>
+                  <li><a href="#">커피</a></li>
+                  <li><a href="#">음료</a></li>
+                  <li><a href="#">아이스크림/디저트</a></li>
+                  <li><a href="#">빽스치노</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">소식</a>
+                <ul class="sub">
+                  <li><a href="news.html">소식</a></li>
+                  <li><a href="#">이벤트</a></li>
+                  <li><a href="#">친절 우수매장</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">커뮤니티</a>
+                <ul class="sub">
+                  <li><a href="#">커피클래스</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">매장안내</a>
+                <ul class="sub">
+                  <li><a href="#">매장찾기</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">창업안내</a>
+                <ul class="sub">
+                  <li><a href="#">가맹정보 및 절차</a></li>
+                </ul>
+              </li>
+              <li class="nosub"><a href="#">고객의 소리</a></li>
             </ul>
           </nav>
         </header>
       </div>
-      <section>
-        <div class="slide">
-          <ul>
-            <li></li>
-          </ul>
-        </div>
+      <section class="new-menu">
+        <h2>신메뉴</h2>
+        <p>지금 바로 가까운 매장에서 빽다방 신메뉴를 만나 보실 수 있습니다.</p>
+        <ul>
+          <li><a href="#">신메뉴</a></li>
+          <li><a href="#">커피</a></li>
+          <li><a href="#">음료</a></li>
+          <li><a href="#">아이스크림/디저트</a></li>
+          <li><a href="#">빽스치노</a></li>
+        </ul>
       </section>
+      <section class="new-menu-video wrapbox">
+        <h3>코코넛 2종</h3>
+        <div class="line"></div>
+        <iframe title="vimeo-player" src="https://player.vimeo.com/video/725543325?h=32b0aee059" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+      </section>
+      <section class="new-menu-photo wrapbox">
+        <h3>신메뉴</h3>
+        <ul>
+          <li>
+            <a href="#"><img src="images/coconut_latte.png" alt="코코넛카페라떼(HOT)" /></a>
+            <p class="best">BEST</p>
+            <p class="txt"><span>코코넛카페라떼</span>(HOT)</p>
+          </li>
+          <li>
+            <a href="#"><img src="images/coconut_iced.png" alt="코코넛카페라떼(ICED)" /></a>
+            <p class="best">BEST</p>
+            <p class="txt"><span>코코넛카페라떼</span>(ICED)</p>
+          </li>
+          <li>
+            <a href="#"><img src="images/coconut_sm.png" alt="코코넛커피스무디(ICED)" /></a>
+            <p class="best">BEST</p>
+            <p class="txt"><span>코코넛커피스무디(ICED)</span></p>
+          </li>
+        </ul>
+      </section>
+      <div class="sns">
+        <a href="#">페이스북</a>
+        <a href="#">인스타그램</a>
+      </div>
       <footer style="border-top: 3px solid #ffe600">
         <div class="wrapbox">
           <h2><a href="index.html">로고</a></h2>

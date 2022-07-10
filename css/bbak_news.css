@@ -1,0 +1,117 @@
+section.about {
+  background-image: url(../images/bg-news.jpg);
+  /* height: 500px; */
+  text-align: center;
+}
+section.about h2 {
+  font-size: 40px;
+  font-weight: 300;
+  padding-top: 150px;
+  position: relative;
+}
+section.about h2::after {
+  content: '';
+  display: block;
+  width: 45px;
+  height: 2px;
+  background-color: #000;
+  position: absolute;
+  top: 224px;
+  left: 48%;
+}
+section.about p {
+  padding-top: 75px;
+  padding-bottom: 140px;
+}
+section.about ul {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 42px;
+}
+
+section.about ul li a {
+  width: 175px;
+  background-color: #fff;
+  padding: 10px 0;
+  border: 1px solid #bfbfbf;
+  color: #bfbfbf;
+}
+section.about ul li a:hover {
+  background-color: #ffe600;
+  color: #000;
+}
+section.about ul li a.active {
+  background-color: #ffe600;
+  color: #000;
+}
+/* 상단 섹션 끝 */
+
+/* 게시판 시작 */
+section.board {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 65px;
+}
+section table {
+  width: 100%;
+}
+section.board table tbody tr {
+  border-top: 1px solid #c8c8c8;
+  border-bottom: 1px solid #c8c8c8;
+  color: #666666;
+}
+section.board table tbody tr:hover {
+  background-color: #0e347e;
+  color: #fff;
+}
+section table thead tr th {
+  padding: 20px 0;
+  color: #0e347e;
+  font-weight: 500;
+  border-top: 2px solid #0e347e;
+}
+section.board table tbody tr td {
+  padding: 30px 0;
+}
+section table .num {
+  width: 91px;
+}
+section table .subject {
+  width: 130px;
+}
+section table .title {
+  width: auto;
+  text-align: left;
+}
+section table .date {
+  width: 152px;
+}
+section table .view {
+  width: 152px;
+}
+nav.page {
+  text-align: center;
+  margin: 84px 0 74px 0;
+  color: #cacbca;
+}
+
+nav.page div.nav-links {
+}
+nav.page div.nav-links > div {
+  display: inline-block;
+  padding: 0 14px;
+  cursor: pointer;
+}
+nav.page div.nav-links > div.active {
+  color: #0e347e;
+  font-weight: bold;
+}
+
+nav.page div.nav-links .one {
+}
+nav.page div.nav-links .two {
+}
+nav.page div.nav-links .three {
+}
+nav.page div.nav-links .four {
+}

@@ -1,0 +1,126 @@
+section.new-menu {
+  background-image: url(../images/bg-menu.jpg);
+  /* height: 500px; */
+  text-align: center;
+}
+section.new-menu h2 {
+  font-size: 40px;
+  font-weight: 300;
+  padding-top: 150px;
+  position: relative;
+}
+section.new-menu h2::after {
+  content: '';
+  display: block;
+  width: 45px;
+  height: 2px;
+  background-color: #000;
+  position: absolute;
+  top: 224px;
+  left: 48%;
+}
+section.new-menu p {
+  padding-top: 75px;
+  padding-bottom: 140px;
+}
+section.new-menu ul {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 42px;
+}
+section.new-menu ul li a {
+  width: 175px;
+  background-color: #fff;
+  padding: 10px 0;
+  border: 1px solid #bfbfbf;
+  color: #bfbfbf;
+}
+section.new-menu ul li a:hover {
+  background-color: #ffe600;
+  color: #000;
+}
+section.new-menu-video {
+  width: 100%;
+  text-align: center;
+}
+section.new-menu-video h3 {
+  text-align: left;
+  font-size: 22px;
+  padding-top: 66px;
+}
+section.new-menu-video .line {
+  width: 100%;
+  height: 2px;
+  background-color: #e5e5e5;
+  margin: 20px 0;
+}
+section.new-menu-photo {
+  padding-top: 52px;
+  position: relative;
+}
+section.new-menu-photo h3 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #071f60;
+}
+section.new-menu-photo h3::after {
+  display: block;
+  content: '';
+  width: 50px;
+  height: 3px;
+  background-color: #071f60;
+  margin: auto;
+  margin-top: 20px;
+}
+section.new-menu-photo ul {
+  display: flex;
+  justify-content: center;
+}
+section.new-menu-photo ul li {
+  position: relative;
+}
+section.new-menu-photo ul li a {
+  margin: 0 120px;
+}
+section.new-menu-photo ul li p.best {
+  border-radius: 100px;
+  background-color: #0e347e;
+  width: 74px;
+  height: 74px;
+  font-size: 15px;
+  color: #ffe600;
+  font-weight: 900;
+  text-align: center;
+  line-height: 4.8;
+  position: absolute;
+  top: 60px;
+  right: 80px;
+}
+section.new-menu-photo ul li p.txt {
+  text-align: center;
+  font-size: 18px;
+  color: #202020;
+}
+section.new-menu-photo ul li p.txt span {
+  font-weight: bold;
+}
+section.new-menu-photo img {
+  width: 260px;
+}
+.sns {
+  text-align: center;
+  margin: 117px 0 49px 0;
+}
+.sns a {
+  display: inline-block;
+  background-image: url(../images/facebook.png);
+  background-size: contain;
+  width: 36px;
+  height: 36px;
+  text-indent: -9999px;
+  margin: 0 10px;
+}
+.sns a:last-child {
+  background-image: url(../images/instagram.png);
+}

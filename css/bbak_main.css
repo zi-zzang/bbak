@@ -2,20 +2,23 @@
   overflow: hidden;
 }
 section {
-  font-size: 15px;
+  font-size: 16px;
 }
 section h3 {
-  font-size: 37px;
+  font-size: 49px;
   font-weight: 900;
 }
-section.sec1 {
-}
 section.sec1 ul {
-  /* overflow: hidden; */
+  height: 600px;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  width: 300%;
+  left: 0%;
 }
 section.sec1 ul li {
 }
-section.sec1 ul li a img {
+section.sec1 ul li a {
 }
 section .story {
   background-image: url(../images/main_sec1.jpg);
@@ -23,6 +26,7 @@ section .story {
   /* background-size: cover; */
   width: 100%;
   height: 233px;
+  position: relative;
 }
 section .story .tit,
 section .story .txt {
@@ -31,7 +35,7 @@ section .story .txt {
   left: 49px;
 }
 section .story .tit p {
-  font-size: 15px;
+  font-size: 19px;
   font-weight: bold;
 }
 section .story .txt h3 {
@@ -39,12 +43,18 @@ section .story .txt h3 {
   padding-bottom: 15px;
   color: #071f60;
 }
+section .story button {
+  position: absolute;
+  top: 160px;
+  left: 420px;
+}
 section.sec2 {
   background-image: url(../images/main_sec2.jpg);
   background-repeat: no-repeat;
   /* background-size: cover; */
   height: 600px;
   padding-top: 89px;
+  position: relative;
 }
 section.sec2 .tit {
   color: #6b4d30;
@@ -63,6 +73,12 @@ section.sec2 .tit::after {
 }
 section.sec2 .txt {
   font-weight: bold;
+  font-size: 16px;
+}
+section.sec2 button {
+  position: absolute;
+  top: 513px;
+  left: 374px;
 }
 section.sections {
   display: flex;
@@ -77,6 +93,7 @@ section.sections .sec3 {
   width: 1148px;
   position: relative;
   margin-right: 12px;
+  position: relative;
 }
 section.sections .sec4 {
   background-image: url(../images/main_sec4.jpg);
@@ -89,6 +106,7 @@ section .sec3 .txt {
   position: absolute;
   top: 87px;
   left: 180px;
+  font-size: 16px;
 }
 section .sec3 .tit {
   color: #071f60;
@@ -96,12 +114,19 @@ section .sec3 .tit {
 section .sec3 .txt {
   padding-top: 156px;
   font-weight: bold;
+  font-size: 16px;
+}
+section .sec3 button {
+  position: absolute;
+  top: 502px;
+  left: 170px;
 }
 section .sec4 .tit,
 section .sec4 .txt {
   position: absolute;
   top: 87px;
   left: 47px;
+  font-size: 16px;
 }
 section .sec4 .tit {
   color: #f1ae1d;
@@ -110,6 +135,178 @@ section .sec4 .txt {
   padding-top: 156px;
   font-weight: bold;
 }
+section .sec4 button {
+  position: absolute;
+  top: 502px;
+  left: 42px;
+}
 section.sec5 {
-  margin-left: 464px;
+  margin-left: 460px;
+  display: grid;
+  grid-template-columns: 511px 1009px;
+  grid-template-rows: 300px;
+  margin-top: 15px;
+  position: relative;
+}
+section.sec5 h4 {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 19px;
+}
+section.sec5 p {
+  font-size: 16px;
+  margin-bottom: 19px;
+}
+
+.store,
+.franchise {
+  border: 2px solid #1d336e;
+  width: 512px;
+  height: 295px;
+  padding: 45px;
+}
+
+.store {
+  position: relative;
+}
+.store .inputbox {
+  position: absolute;
+  top: 216px;
+  left: 45px;
+}
+.store input {
+  width: 330px;
+  height: 40px;
+  padding: 20px;
+  border: 2px solid #1d336e;
+}
+.store button.search {
+  background-image: url(../images/i_search.png);
+  background-size: contain;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  background-color: transparent;
+  border: 0;
+  position: absolute;
+  top: 7px;
+  right: 4px;
+  text-indent: -9999px;
+}
+.store input::placeholder {
+  color: #a1afcb;
+}
+.franchise {
+  background-image: url(../images/main_sec6.png);
+  background-size: 250px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  /* float: right; */
+}
+.franchise button {
+  background-image: url(../images/store-ico.png);
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: 30px;
+  background-position: center;
+  border: 1px solid transparent;
+  box-shadow: 0 3px 5px #eee;
+  border-radius: 50px;
+  width: 53px;
+  height: 53px;
+
+  text-indent: -9999px;
+}
+.franchise button:hover {
+  background-image: url(../images/ceo/favicon.png);
+  background-size: contain;
+}
+section.sec5 .ad {
+  background-image: url(../images/main_sec5.jpg);
+  width: 937px;
+  height: 594px;
+  margin-left: 15px;
+  color: #fff;
+  padding: 90px 0 0 45px;
+}
+section.sec5 .ad h4::after {
+  display: block;
+  content: '';
+  width: 25px;
+  height: 1px;
+  background-color: #fff;
+  margin-top: 32px;
+}
+section.sec5 .ad p {
+  font-weight: bold;
+}
+
+section.last-section {
+  width: 100%;
+  text-align: center;
+  margin-top: 78px;
+  margin-bottom: 100px;
+  position: relative;
+}
+section.last-section h4 {
+  font-size: 30px;
+  font-family: 'RIDIBatang';
+}
+section.last-section p {
+  color: #999999;
+  display: inline-block;
+  margin-right: 14px;
+  margin-top: 22px;
+  margin-bottom: 67px;
+}
+section.last-section .sns::before {
+  content: '';
+  display: block;
+  background-color: #0e347e;
+  width: 50px;
+  height: 2px;
+  position: absolute;
+  top: 100px;
+  left: 49%;
+}
+section.last-section .sns {
+}
+section.last-section .sns a {
+  display: inline-block;
+  background-image: url(../images/facebook.png);
+  background-size: contain;
+
+  width: 35px;
+  height: 35px;
+  margin: 0 11px;
+  text-indent: -9999px;
+}
+section.last-section .sns a:last-child {
+  background-image: url(../images/instagram.png);
+}
+
+button.more {
+  border: 1px solid transparent;
+  background-color: #fff;
+  border-radius: 100px;
+  box-shadow: 3px 3px 3px rgb(196, 192, 192);
+  font-size: 40px;
+  width: 50px;
+  height: 50px;
+  color: #0e347e;
+}
+button.more:hover {
+  animation: rotate 0.8s;
+  animation-fill-mode: forwards;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(720deg);
+    color: transparent;
+    background-image: url(../images/ceo/favicon.png);
+    background-size: contain;
+  }
 }

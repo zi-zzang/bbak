@@ -1,0 +1,134 @@
+section.about {
+  background-image: url(../images/store-bg.jpg);
+  /* height: 500px; */
+  text-align: center;
+}
+section.about h2 {
+  font-size: 40px;
+  font-weight: 300;
+  padding-top: 150px;
+  position: relative;
+}
+section.about h2::after {
+  content: '';
+  display: block;
+  width: 45px;
+  height: 2px;
+  background-color: #000;
+  position: absolute;
+  top: 224px;
+  left: 48%;
+}
+section.about p {
+  padding-top: 75px;
+  padding-bottom: 140px;
+}
+section.about ul {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 42px;
+}
+
+section.about ul li a {
+  width: 175px;
+  background-color: #fff;
+  padding: 10px 0;
+  border: 1px solid #bfbfbf;
+  color: #bfbfbf;
+}
+section.about ul li a:hover {
+  background-color: #ffe600;
+  color: #000;
+}
+section.about ul li a.active {
+  background-color: #ffe600;
+  color: #000;
+}
+/* 상단 섹션 끝 */
+
+/* 게시판 시작 */
+section.board {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 65px;
+}
+section table {
+  width: 100%;
+}
+section.board table tbody tr {
+  border-top: 1px solid #c8c8c8;
+  border-bottom: 1px solid #c8c8c8;
+  color: #666666;
+}
+section.board table tbody tr.sub_tit:hover {
+  background-color: #0e347e;
+  color: #fff;
+}
+section table thead tr th {
+  padding: 20px 0;
+  color: #0e347e;
+  font-weight: 500;
+  border-top: 2px solid #0e347e;
+}
+section.board table tbody tr td {
+  padding: 20px 0;
+}
+section table .area {
+  width: 163px;
+}
+section table .store_name {
+  width: 157px;
+}
+section table .add {
+  width: auto;
+}
+section table .tel {
+  width: 160px;
+}
+
+.sub_table {
+  padding: 30px 34px;
+  display: table-cell;
+  display: none;
+}
+
+.sub_table .inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sub_table .inner .storeimg img {
+}
+.sub_table .inner .store_info {
+  text-align: left;
+  flex: 1;
+}
+.sub_table .inner .store_info ul li {
+  display: flex;
+  padding: 15px 30px;
+}
+.sub_table .inner .store_info ul li span.tit {
+  width: 20%;
+  color: #0e347e;
+  font-weight: 500;
+}
+.sub_table .inner .store_info ul li span.txt {
+  width: 80%;
+}
+nav.page {
+  text-align: center;
+  margin: 84px 0 74px 0;
+  color: #cacbca;
+}
+
+nav.page div.nav-links {
+}
+nav.page div.nav-links > div {
+  display: inline-block;
+  padding: 0 14px;
+  cursor: pointer;
+}
+nav.page div.nav-links > div.active {
+  color: #0e347e;
+  font-weight: bold;
+}
